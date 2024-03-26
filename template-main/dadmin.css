@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0; 
+  background-color: #f7f7f7;
+}
+
+.container {
+  background-color:#000000; 
+  color: #fff; 
+  padding: 10px 20px; /* Padding inside the container */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center vertically */ 
+  height:40px;
+}
+.ietm{ 
+  font-weight: bold; 
+  font-size: large; 
+  color: #f5b553;
+}
+.logo img {
+  width: 150px; /* Width of the logo image */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.header {
+  background-color:#854836; 
+  color: #fff;
+  padding: 10px; /* Padding inside the header */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.button-container { 
+  display: flex; 
+}
+
+.button {
+  padding: 10px 20px; 
+  background-color: #f5b553; 
+  color: black; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; /* Cursor style */
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  margin-left: 20px; /* Margin on the left side of each button */
+}
+
+.button.logout {
+  background-color: #f5b553; 
+  color: black; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; 
+  padding: 10px 20px; 
+  margin-right: 20px; /* Margin on the right side of the button */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button.logout:hover {
+  background-color: #fbfae1; 
+}
+
+.button:hover {
+  background-color: #fbfae1; 
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info span:nth-child(1) {
+  margin-right: 50px; /* Pushes the first span to the left */ 
+  font-size: large; 
+  font-weight: bold; 
+  color:black;
+}
+
+.user-info span:nth-child(2) {
+  margin-left: 10px; /* Pushes the second span to the right */ 
+  font-size: large; 
+  font-weight: bold; 
+  color:black;
+}
+.horizontal-bar { 
+  padding: 10px;
+  border-bottom: 5px solid #092a35; /* Adds a bottom border */
+}  
+
+.three_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+ 
+.first_div {
+  flex: 1; /* Each div takes equal width */
+  text-align: center; /* Center-align content */
+  height: 50px; /* Specify height */
+  width: 100px; /* Specify width */
+  margin-right: 10px; /* Specify margin */
+  padding: 10px; /* Specify padding */
+  background-color: #007bff; /* Specify background color */
+}
+.Button {
+  background-color: #f5b553; /* Light background color */
+  color:#272343;  
+  font-weight: bold; 
+  font-size: larger;
+  padding: 15px 150px; /* Padding */ 
+  border: none; /* Remove border */
+  border-left: 7px solid #0092ca; /* Left side border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.Button i {
+  margin-right: 7px; /* Spacing between icon and text */
+}
+
+.Button:hover {
+  background-color: #ffffff; /* Darker background color on hover */
+}
+
+.Second_Div{ 
+  flex: 1; /* Each div takes equal width */
+  text-align: center; /* Center-align content */
+  height: 50px; /* Specify height */
+  width: 100px; /* Specify width */
+  margin-right: 10px; /* Specify margin */
+  padding: 20px; /* Specify padding */
+  
+}  
+.Second_Div .Button {
+  margin-right:7px; 
+  margin: 10px;
+ 
+}
+
+.Third_Div{ 
+   
+  flex: 1; /* Each div takes equal width */
+  text-align: center; /* Center-align content */
+  height: 50px; /* Specify height */
+  width: 100px; /* Specify width */
+  margin-right: 10px; /* Specify margin */
+  padding: 10px; /* Specify padding */
+
+}  
+.Third_Div .Button { 
+   
+   margin-right:7px; 
+   margin:10px;
+
+}
+
+
